@@ -1,0 +1,37 @@
+### 集群节点信息
+- 10.28.62.48 neo4j7.prod.bbdops.com neo4j7
+- 10.28.62.49 neo4j8.prod.bbdops.com neo4j8
+- 10.28.62.51 neo4j10.prod.bbdops.com neo4j10
+- 资产密码当中搜索neo4j7,查找对应账号密码
+
+### 目录说明:
+- /data1/wanxiangneo4j/    --- 账号根目录
+- /data1/wanxiangneo4j/frombbd1  ---  从赵运枫bbd1同步要更新的库，放置目录，按照更新日期新建子文件夹
+- /data1/wanxiangneo4j/git/wanxiang_neo4j  --- neo4j配置git,http://git.bbdops.com/yuyu080/wanxiang_neo4j/
+- /data1/wanxiangneo4j/neo4j-enterprise-3.2.6 --- neo4j主目录
+- /data1/wanxiangneo4j/backup --- 数据版本切换时，备份路径
+
+
+### 更新部署(所有命令在wanxiangneo4j账号下进行):
+- **和研发确认上游入库流已经停止**
+- **复查空间是否足够更新版本库**
+   - 复查neo4j7，neo4j8，neo4j10 /data1空间是否足够，和研发确认空间是否足够放下新一版数据，是否需要清空/data1/wanxiangneo4j/backup备份，释放空间
+- **同步要更新的库**
+   - neo4j7,8,10都同步bbd1上的库到对应的节点,neo4j7,8,10都执行:
+   - mkdir /data1/wanxiangneo4j/frombbd1/${新建的日期文件夹}/
+   - scp -P 51668 -r bbd@10.28.52.151:/data2/bbddata/neo4j-enterprise-3.2.6/data/databases/${研发给的路径和库名替换} /data1/wanxiangneo4j/frombbd1/${新建的日期文件夹}/
+- **进入neo4j7,neo4j8,neo4j10 neo4j程序主目录
+   - cd /data1/wanxiangneo4j/neo4j-enterprise-3.2.6(cd neo4j-enterprise-3.2.6)
+- **三个节点停止服务**
+   - jps ; ./bin/neo4j stop ; 一般stop不掉，可以jps， kill /kill -9 pid(neo4j8,neo4j10，再停主neo4j7)
+- **备份三个节点neo4j7,8,10已有的库**
+   - mkdir /data1/wanxiangneo4j/backup/${新建的日期文件夹}
+   - mv /data1/wanxiangneo4j/neo4j-enterprise-3.2.6/data/databases/graph.db /data1/wanxiangneo4j/backup/${新建的日期文件夹}
+- **三个节点neo4j7,8,10更新库**
+   - ls /data1/wanxiangneo4j/neo4j-enterprise-3.2.6/data/databases/
+   - mv /data1/wanxiangneo4j/frombbd1/${新建的日期文件夹}/${研发给的路径和库名替换} /data1/wanxiangneo4j/neo4j-enterprise-3.2.6/data/databases/
+- **启动三节点neo4j7,8,10库**
+   - 依次在neo4j7,8,10执行启动，neo4j7第一个执行，确保neo4j7是主
+   - cd /data1/wanxiangneo4j/neo4j-enterprise-3.2.6; ./bin/neo4j start
+- **确认状态**
+   - tail -f logs/neo4j.log
