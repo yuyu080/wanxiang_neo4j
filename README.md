@@ -1,7 +1,11 @@
-- **集群**：
+- **产线集群**：
   - 10.28.62.48 neo4j7.prod.bbdops.com neo4j7
   - 10.28.62.49 neo4j8.prod.bbdops.com neo4j8
   - 10.28.62.51 neo4j10.prod.bbdops.com neo4j10
+- **测试集群**：
+  - 10.28.62.46 neo4j5.prod.bbdops.com neo4j5
+  - 10.28.62.47 neo4j6.prod.bbdops.com neo4j6
+  - 10.28.62.52 bbd1.prod.bbdops.com bbd1
 
 - **历史库宿主机**：
   - 10.28.62.50 neo4j9.prod.bbdops.com neo4j9
