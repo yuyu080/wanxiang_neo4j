@@ -6,6 +6,10 @@
     - wanxiangneo4jpre11 10.28.62.46 http 20011 blot 30011
     - wanxiangneo4jpre12 10.28.62.47 http 20012 blot 30012
     - wanxiangneo4jpre13 10.28.62.52 http 20013 blot 30013
+- **灰度测试集群3.4.+**：
+    - wanxiangneo4jpre14 10.28.62.46 http 20014 blot 30014
+    - wanxiangneo4jpre15 10.28.62.47 http 20015 blot 30015
+    - wanxiangneo4jpre16 10.28.62.52 http 20016 blot 30016
 
 - **历史库宿主机**：
   - 10.28.62.50 neo4j9.prod.bbdops.com neo4j9
