@@ -16,6 +16,7 @@
 
 - **灰度API测试容器**：
     - wanxiangneo4japi51 10.28.62.46 http 9999 ssh 10051
+    - curl 10.28.62.46:9999/api/0/graph/query?qyId=bc3e060bf3d94692a29bc9c6ecc363f2&distance=8
 
 
 - **历史库宿主机**：
