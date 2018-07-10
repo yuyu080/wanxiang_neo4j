@@ -11,6 +11,10 @@
     - wanxiangneo4jpre15 10.28.62.47 http 20015 blot 30015
     - wanxiangneo4jpre16 10.28.62.52 http 20016 blot 30016
 
+- **离线加载专用3.2.6**：
+    - wanxiangneo4jpre50 10.28.62.46 http 20050 blot 30050
+
+
 - **历史库宿主机**：
   - 10.28.62.50 neo4j9.prod.bbdops.com neo4j9
 
