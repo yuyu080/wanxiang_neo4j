@@ -3,16 +3,16 @@
   - 10.28.62.49 neo4j8.prod.bbdops.com neo4j8 从
   - 10.28.62.51 neo4j10.prod.bbdops.com neo4j10 从
 - **灰度测试集群3.2.6**：
-    - wanxiangneo4jpre11 10.28.62.46 http 20011 blot 30011 主
-    - wanxiangneo4jpre12 10.28.62.47 http 20012 blot 30012 从
-    - wanxiangneo4jpre13 10.28.62.52 http 20013 blot 30013 从
+    - wanxiangneo4jpre11 10.28.62.46 http 20011 bolt 30011 主
+    - wanxiangneo4jpre12 10.28.62.47 http 20012 bolt 30012 从
+    - wanxiangneo4jpre13 10.28.62.52 http 20013 bolt 30013 从
 - **灰度测试集群3.4.+**：
-    - wanxiangneo4jpre14 10.28.62.46 http 20014 blot 30014
-    - wanxiangneo4jpre15 10.28.62.47 http 20015 blot 30015
-    - wanxiangneo4jpre16 10.28.62.52 http 20016 blot 30016
+    - wanxiangneo4jpre14 10.28.62.46 http 20014 bolt 30014
+    - wanxiangneo4jpre15 10.28.62.47 http 20015 bolt 30015
+    - wanxiangneo4jpre16 10.28.62.52 http 20016 bolt 30016
 
 - **离线加载专用3.2.6**：
-    - wanxiangneo4jpre50 10.28.62.46 http 20050 blot 30050   ssh 10050
+    - wanxiangneo4jpre50 10.28.62.46 http 20050 bolt 30050   ssh 10050
 
 - **灰度API测试容器**：
     - wanxiangneo4japi51 10.28.62.46 http 9999 ssh 10051
