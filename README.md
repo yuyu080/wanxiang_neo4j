@@ -36,7 +36,7 @@
 
 - **历史库宿容器信息 201-212依次对应月份1月-12月**
 
-   | 主机IP | 主机名 | 宿主机信息 |http端口 | blot端口 | 默认角色|
+   | 容器IP | 容器名  |http端口 | blot端口 | 默认角色| 宿主机信息|
    | :------| :------ | :------ | :------ | :------ |:------ |
    | 10.28.62.201 | wanxiangneo4jhistory01.prod.bbdops.com | 7474 | 7687 | 单点 | neo4j9.prod.bbdops.com 10.28.62.50 |
    | 10.28.62.202 | wanxiangneo4jhistory02.prod.bbdops.com | 7474 | 7687 | 单点 | neo4j9.prod.bbdops.com 10.28.62.50 |
