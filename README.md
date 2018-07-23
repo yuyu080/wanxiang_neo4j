@@ -30,7 +30,7 @@
 
 - **灰度API测试容器**：
 
-    | 容器名 | 对应neo4j版本 | 宿主机IP | http端口  | ssh端口 | 测试URL|
+    | 容器名 | neo4j版本 | 宿主机IP | http端口  | ssh端口 | 测试URL|
     | :------| :------ | :------ | :------ |:------ |:------ |
     |   wanxiangneo4japi51 | neo4j3.2 | 10.28.62.46 |  9999 | 10051 | curl 10.28.62.46:9999/api/0/graph/query?qyId=bc3e060bf3d94692a29bc9c6ecc363f2&distance=8 |
     |   wanxiangneo4japi52 | neo4j3.4 | 10.28.62.47 |  9999 | 10052 |  |
