@@ -51,3 +51,6 @@
     | 10.28.62.210 | wanxiangneo4jhistory10.prod.bbdops.com | 7474 | 7687  | neo4j9.prod.bbdops.com | 10.28.62.50 |
     | 10.28.62.211 | wanxiangneo4jhistory11.prod.bbdops.com | 7474 | 7687  | neo4j9.prod.bbdops.com | 10.28.62.50 |
     | 10.28.62.212 | wanxiangneo4jhistory12.prod.bbdops.com | 7474 | 7687  | neo4j9.prod.bbdops.com | 10.28.62.50 |
+
+- **历史库备份**
+  - backup07 /tank/hadoop/neo4j/wanxiang/neo4j_prod_history_backup
