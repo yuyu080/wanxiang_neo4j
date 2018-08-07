@@ -19,7 +19,7 @@
     | 容器名 | 宿主机名 |宿主机IP | http端口 | bolt端口 | ssh端口 | 默认角色|
     | :------| :------ | :------ | :------ | :------ |:------ |:------ |
     |   wanxiangneo4jpre14 | neo4j5.prod.bbdops.com | 10.28.62.46 |  20014 |  30014 | 10014 | 主 |
-    |   wanxiangneo4jpre15 | neo4j5.prod.bbdops.com | 10.28.62.47 |  20015 |  30015 | 10015 | 从 |
+    |   wanxiangneo4jpre15 | neo4j6.prod.bbdops.com | 10.28.62.47 |  20015 |  30015 | 10015 | 从 |
     |   wanxiangneo4jpre16 | bbd1.prod.bbdops.com | 10.28.62.52 |  20016 |  30016 | 10016 | 从 |
 
 - **离线加载专用3.2.6**：
