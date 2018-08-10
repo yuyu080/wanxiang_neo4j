@@ -46,7 +46,7 @@
     |   wanxiangneo4japi51 | neo4j3.2 | neo4j5.prod.bbdops.com | 10.28.62.46 |  9999 | 10051 | curl 10.28.62.46:9999/api/0/graph/query?qyId=bc3e060bf3d94692a29bc9c6ecc363f2&distance=8 |
     |   wanxiangneo4japi52 | neo4j3.4 | neo4j6.prod.bbdops.com | 10.28.62.47 |  9999 | 10052 |  |
 
-- **历史库宿容器信息 201-212依次对应月份1月-12月, 直接使用容器IP和端口访问服务**
+- **历史库宿容器信息 201-212依次对应月份1月-12月, 直接使用容器IP和端口访问服务，在网桥模式的neo4j9上,shell或ssh访问**
 
     | 容器IP | 容器名  | http端口 | bolt端口 | 宿主机名 | 宿主IP |
     | :------| :------ | :------ | :------  | :------ | :------ |
