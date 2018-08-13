@@ -6,6 +6,16 @@
     | 10.28.62.49 | neo4j8.prod.bbdops.com  | 7474 | 7687 | 从 |
     | 10.28.62.51 | neo4j10.prod.bbdops.com | 7474 | 7687 | 从 
     
+- **Causal-Clustar-3.4.0**
+  
+    | 主机IP | 主机名 | http端口 | bolt端口 | 默认角色 |
+    | :------| :------ | :------ | :------ | :------ |
+    | 10.28.62.53 | neo4j11.prod.bbdops.com | 7474 | 7687    |     core |
+    | 10.28.62.54 | neo4j12.prod.bbdops.com | 7474 | 7687    |     core |
+    | 10.28.62.55 | neo4j13.prod.bbdops.com | 7474 | 7687    |     core | 
+    | 10.28.62.46 | neo4j5.prod.bbdops.com | 7474 | 7687    |      READ_REPLICA |
+    | 10.28.62.47 | neo4j6.prod.bbdops.com | 7474 | 7687    |      READ_REPLICA |
+    
 - **5节点灰度环境-3.4.0**
   
     | 主机IP | 主机名 | http端口 | bolt端口 |
