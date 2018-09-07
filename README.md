@@ -40,7 +40,7 @@
     | 容器名 | 宿主机名 | 宿主机IP |http端口 | bolt端口 | ssh端口 | 默认角色|
     | :------| :------ | :------ | :------ | :------ |:------ |:------ |
     |   wanxiangneo4jpre50 | neo4j5.prod.bbdops.com |   10.28.62.46 |  20050 |  30050 | 10050 | 单点 |
-
+    |   wanxiangneo4jpre53 | neo4j8.prod.bbdops.com |   10.28.62.49 |  20053 |  30053 | 10053 | 单点 |
 - **灰度API测试容器 rancher容器**：
 
     | 容器名 | neo4j版本 | 宿主机名 | 宿主机IP | http端口  | ssh端口 | 测试URL|
