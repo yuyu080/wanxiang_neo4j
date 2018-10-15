@@ -23,9 +23,9 @@
 
     | 容器名 | 宿主机名 | 宿主机IP | http端口 | bolt端口 | ssh端口 | 默认角色|
     | :------| :------ | :------ | :------ | :------ |:------ |:------ |
-    |   wanxiangneo4jpre11 | neo4j5.prod.bbdops.com | 10.28.62.46 |  20011 |  30011 | 10011 | 主 |
-    |   wanxiangneo4jpre12 | neo4j6.prod.bbdops.com | 10.28.62.47 |  20012 |  30012 | 10012 | 从 |
-    |   wanxiangneo4jpre13 | bbd1.prod.bbdops.com | 10.28.62.52 |  20013 |  30013 | 10013 | 从 |
+    |   wanxiangneo4jpre101 | neo4j8.prod.bbdops.com | 10.28.62.49 |  20011 |  30011 | 10011 | 主 |
+    |   wanxiangneo4jpre105 | neo4j7.prod.bbdops.com | 10.28.62.48 |  20015 |  30015 | 10015 | 从 |
+    |   wanxiangneo4jpre109 | neo4j10.prod.bbdops.com| 10.28.62.51 |  20019 |  30019 | 10019 | 从 |
 
 - **灰度测试集群3.4.+ 使用宿主机IP端口访问容器服务 rancher容器**：
 
