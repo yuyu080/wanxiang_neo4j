@@ -73,8 +73,24 @@
     | 10.28.62.211 | wanxiangneo4jhistory11.prod.bbdops.com | 7474 | 7687  | neo4j9.prod.bbdops.com | 10.28.62.50 |
     | 10.28.62.212 | wanxiangneo4jhistory12.prod.bbdops.com | 7474 | 7687  | neo4j9.prod.bbdops.com | 10.28.62.50 |
 
+** 历史库宿容器信息-3.4.7 **
 
-- **历史库冷备**
+    | 容器IP | 容器名  | http端口 | bolt端口 | 宿主机名 | 宿主IP |
+    | :------| :------ | :------ | :------  | :------ | :------ |
+    | 10.28.62.102 | wanxiangneo4jhistory01.prod.bbdops.com | 7474 | 7687  | neo4j8.prod.bbdops.com | 10.28.62.49 |
+    | 10.28.62.103 | wanxiangneo4jhistory02.prod.bbdops.com | 7474 | 7687  | neo4j8.prod.bbdops.com | 10.28.62.49 |
+    | 10.28.62.104 | wanxiangneo4jhistory03.prod.bbdops.com | 7474 | 7687  | neo4j8.prod.bbdops.com | 10.28.62.49 |
+    | 10.28.62.106 | wanxiangneo4jhistory04.prod.bbdops.com | 7474 | 7687  | neo4j7.prod.bbdops.com | 10.28.62.48 |
+    | 10.28.62.107 | wanxiangneo4jhistory05.prod.bbdops.com | 7474 | 7687  | neo4j7.prod.bbdops.com | 10.28.62.48 |
+    | 10.28.62.108 | wanxiangneo4jhistory06.prod.bbdops.com | 7474 | 7687  | neo4j7.prod.bbdops.com | 10.28.62.48 |
+    | 10.28.62.110 | wanxiangneo4jhistory07.prod.bbdops.com | 7474 | 7687  | neo4j10.prod.bbdops.com | 10.28.62.51 |
+    | 10.28.62.111 | wanxiangneo4jhistory08.prod.bbdops.com | 7474 | 7687  | neo4j10.prod.bbdops.com | 10.28.62.51 |
+    | 10.28.62.112 | wanxiangneo4jhistory09.prod.bbdops.com | 7474 | 7687  | neo4j10.prod.bbdops.com | 10.28.62.51 |
+    | 10.28.62.113 | wanxiangneo4jhistory10.prod.bbdops.com | 7474 | 7687  | neo4j8.prod.bbdops.com | 10.28.62.49 |
+    | 10.28.62.114 | wanxiangneo4jhistory11.prod.bbdops.com | 7474 | 7687  | neo4j7.prod.bbdops.com | 10.28.62.48 |
+    | 10.28.62.115 | wanxiangneo4jhistory12.prod.bbdops.com | 7474 | 7687  | neo4j10.prod.bbdops.com | 10.28.62.51 |
+- 
+**历史库冷备**
   - backup07 /tank/hadoop/neo4j/wanxiang/neo4j_prod_history_backup
   - 历史库备份当中保留所有历史版本，每次有新历史库，同时同步到neo4j9对应容器和历史库冷备当中。现阶段约定,在neo4j9上只运行最近6个月的库
 
