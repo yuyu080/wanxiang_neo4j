@@ -77,18 +77,18 @@
 
     | 容器IP | 容器名  | http端口 | bolt端口 | 宿主机名 | 宿主IP |
     | :------| :------ | :------ | :------  | :------ | :------ |
-    | 10.42.62.201 | wanxiangneo4jhistory01.prod.bbdops.com | 7474 | 7687  | neo4j7.prod.bbdops.com | 10.28.62.48 |
-    | 10.42.62.202 | wanxiangneo4jhistory02.prod.bbdops.com | 7474 | 7687  | neo4j7.prod.bbdops.com | 10.28.62.48 |
-    | 10.42.62.203 | wanxiangneo4jhistory03.prod.bbdops.com | 7474 | 7687  | neo4j7.prod.bbdops.com | 10.28.62.48 |
-    | 10.42.62.204 | wanxiangneo4jhistory04.prod.bbdops.com | 7474 | 7687  | neo4j7.prod.bbdops.com | 10.28.62.48 |
-    | 10.42.62.205 | wanxiangneo4jhistory05.prod.bbdops.com | 7474 | 7687  | neo4j8.prod.bbdops.com | 10.28.62.49 |
-    | 10.42.62.206 | wanxiangneo4jhistory06.prod.bbdops.com | 7474 | 7687  | neo4j8.prod.bbdops.com | 10.28.62.49 |
-    | 10.42.62.207 | wanxiangneo4jhistory07.prod.bbdops.com | 7474 | 7687  | neo4j8.prod.bbdops.com | 10.28.62.49 |
-    | 10.42.62.208 | wanxiangneo4jhistory08.prod.bbdops.com | 7474 | 7687  | neo4j8.prod.bbdops.com | 10.28.62.49 |
-    | 10.42.62.209 | wanxiangneo4jhistory09.prod.bbdops.com | 7474 | 7687  | neo4j10.prod.bbdops.com | 10.28.62.51 |
-    | 10.42.62.210 | wanxiangneo4jhistory10.prod.bbdops.com | 7474 | 7687  | neo4j10.prod.bbdops.com | 10.28.62.51 |
-    | 10.42.62.211 | wanxiangneo4jhistory11.prod.bbdops.com | 7474 | 7687  | neo4j10.prod.bbdops.com | 10.28.62.51 |
-    | 10.42.62.212 | wanxiangneo4jhistory12.prod.bbdops.com | 7474 | 7687  | neo4j10.prod.bbdops.com | 10.28.62.51 |
+    | 10.42.62.201 | wanxiangneo4jhistory01.prod.bbdops.com | 20021 | 30021  | neo4j7.prod.bbdops.com | 10.28.62.48 |
+    | 10.42.62.202 | wanxiangneo4jhistory02.prod.bbdops.com | 20022 | 30022  | neo4j7.prod.bbdops.com | 10.28.62.48 |
+    | 10.42.62.203 | wanxiangneo4jhistory03.prod.bbdops.com | 20023 | 30023  | neo4j7.prod.bbdops.com | 10.28.62.48 |
+    | 10.42.62.204 | wanxiangneo4jhistory04.prod.bbdops.com | 20024 | 30024  | neo4j7.prod.bbdops.com | 10.28.62.48 |
+    | 10.42.62.205 | wanxiangneo4jhistory05.prod.bbdops.com | 20025 | 30025  | neo4j8.prod.bbdops.com | 10.28.62.49 |
+    | 10.42.62.206 | wanxiangneo4jhistory06.prod.bbdops.com | 20026 | 30026  | neo4j8.prod.bbdops.com | 10.28.62.49 |
+    | 10.42.62.207 | wanxiangneo4jhistory07.prod.bbdops.com | 20027 | 30027  | neo4j8.prod.bbdops.com | 10.28.62.49 |
+    | 10.42.62.208 | wanxiangneo4jhistory08.prod.bbdops.com | 20028 | 30028  | neo4j8.prod.bbdops.com | 10.28.62.49 |
+    | 10.42.62.209 | wanxiangneo4jhistory09.prod.bbdops.com | 20029 | 30029  | neo4j10.prod.bbdops.com | 10.28.62.51 |
+    | 10.42.62.210 | wanxiangneo4jhistory10.prod.bbdops.com | 20030 | 30030  | neo4j10.prod.bbdops.com | 10.28.62.51 |
+    | 10.42.62.211 | wanxiangneo4jhistory11.prod.bbdops.com | 20031 | 30031  | neo4j10.prod.bbdops.com | 10.28.62.51 |
+    | 10.42.62.212 | wanxiangneo4jhistory12.prod.bbdops.com | 20032 | 30032  | neo4j10.prod.bbdops.com | 10.28.62.51 |
 - 
 **历史库冷备**
   - backup07 /tank/hadoop/neo4j/wanxiang/neo4j_prod_history_backup
