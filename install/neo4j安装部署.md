@@ -53,15 +53,22 @@ dbms.jvm.additional=-Dunsupported.dbms.udc.source=tarball
 
 对应的ip改成本机ip地址
 ```
+
+
 -----------------------------------------------------------
+
 五：修改图库默认密码
 启动前执行
 `./bin/neo4j-admin set-initial-password your-password`
+
 -----------------------------------------------------------
+
+
 六：启动图库
 `./bin/neo4j start `
 
 -----------------------------------------------------------
+
 
 七：界面登录验证
  http://x.x.x.x:7474/browser/
