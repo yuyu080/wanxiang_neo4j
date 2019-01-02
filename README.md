@@ -56,23 +56,6 @@
     | 10.28.102.31 | wanxiang102neo4j1 | 7474 | 7687  | CT9 | 10.28.102.19 |
     | 10.28.102.32 | wanxiang102neo4j2 | 7474 | 7687  | CT9 | 10.28.102.19 |
 
-- **历史库宿容器信息 201-212依次对应月份1月-12月, 直接使用容器IP和端口访问服务, 在网桥模式的neo4j9上,shell或ssh访问**
-
-    | 容器IP | 容器名  | http端口 | bolt端口 | 宿主机名 | 宿主IP |
-    | :------| :------ | :------ | :------  | :------ | :------ |
-    | 10.28.62.201 | wanxiangneo4jhistory01.prod.bbdops.com | 7474 | 7687  | neo4j9.prod.bbdops.com | 10.28.62.50 |
-    | 10.28.62.202 | wanxiangneo4jhistory02.prod.bbdops.com | 7474 | 7687  | neo4j9.prod.bbdops.com | 10.28.62.50 |
-    | 10.28.62.203 | wanxiangneo4jhistory03.prod.bbdops.com | 7474 | 7687  | neo4j9.prod.bbdops.com | 10.28.62.50 |
-    | 10.28.62.204 | wanxiangneo4jhistory04.prod.bbdops.com | 7474 | 7687  | neo4j9.prod.bbdops.com | 10.28.62.50 |
-    | 10.28.62.205 | wanxiangneo4jhistory05.prod.bbdops.com | 7474 | 7687  | neo4j9.prod.bbdops.com | 10.28.62.50 |
-    | 10.28.62.206 | wanxiangneo4jhistory06.prod.bbdops.com | 7474 | 7687  | neo4j9.prod.bbdops.com | 10.28.62.50 |
-    | 10.28.62.207 | wanxiangneo4jhistory07.prod.bbdops.com | 7474 | 7687  | neo4j9.prod.bbdops.com | 10.28.62.50 |
-    | 10.28.62.208 | wanxiangneo4jhistory08.prod.bbdops.com | 7474 | 7687  | neo4j9.prod.bbdops.com | 10.28.62.50 |
-    | 10.28.62.209 | wanxiangneo4jhistory09.prod.bbdops.com | 7474 | 7687  | neo4j9.prod.bbdops.com | 10.28.62.50 |
-    | 10.28.62.210 | wanxiangneo4jhistory10.prod.bbdops.com | 7474 | 7687  | neo4j9.prod.bbdops.com | 10.28.62.50 |
-    | 10.28.62.211 | wanxiangneo4jhistory11.prod.bbdops.com | 7474 | 7687  | neo4j9.prod.bbdops.com | 10.28.62.50 |
-    | 10.28.62.212 | wanxiangneo4jhistory12.prod.bbdops.com | 7474 | 7687  | neo4j9.prod.bbdops.com | 10.28.62.50 |
-
 - **历史库宿容器信息-3.4.7**
 
     | 容器IP | 容器名  | http端口 | bolt端口 | 宿主机名 | 宿主IP |
